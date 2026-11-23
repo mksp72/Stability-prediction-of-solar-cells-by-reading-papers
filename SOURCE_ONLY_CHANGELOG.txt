@@ -1,0 +1,9 @@
+v18.7.0 SOURCE-ONLY (based on uploaded v18.6.9.1)
+- REMOVED legacy/curated DOI-by-DOI calibrated extraction backend from production.
+- REMOVED source-file modules containing article-specific stability coordinate boxes, fixed PV/EQE values and category mappings.
+- REMOVED DOI-specific numerical enrichments and special-case supplemental data injections.
+- REMOVED hard-coded additive-name cases in PV and EQE recovery.
+- REMOVED --existing-results to require fresh document reading.
+- RETAINED metadata-based main/supporting pairing, generic stability/continuous/marker readers, general J-V OCR/table/narrative pipelines, reverse scan preference, HI, QC and Excel audit.
+- ADDED static no-paper-constants and synthetic scan/HI regression tests.
+- END-TO-END verified one supplied manuscript; generic J-V parser and pairing separately verified against another supplied main+SI bundle.
